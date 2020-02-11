@@ -1,0 +1,14 @@
+{
+  "name": "default",
+  "type": "sqlite",
+  "database": "project-repo.sql",
+  "entities": [
+    "dist/**/*.entity.js"
+  ],
+  "migrations": [
+    "dist/migration/*.js"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  }
+}
